@@ -4,7 +4,13 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+ark-bls12-381 = "0.4.0"
+ark-groth16 = "0.4.0"
+ark-r1cs-std = "0.4.0"
+ark-relations = "0.4.0"
+ark-snark = "0.4.0"
 curve25519-dalek = "4.1.2"
 ed25519-dalek = { version = "2.1.1", features = ["rand_core"] }
 rand = "0.8.5"
 zk-callbacks = { git = "https://github.com/hkailad/callbacks", version = "0.1.0" }
+zk-object = { git = "https://github.com/hkailad/callbacks", version = "0.1.0" }

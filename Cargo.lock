@@ -457,10 +457,16 @@ checksum = "9c198f91728a82281a64e1f4f9eeb25d82cb32a5de251c6bd1b5154d63a8e7bd"
 name = "mpp"
 version = "0.1.0"
 dependencies = [
+ "ark-bls12-381",
+ "ark-groth16",
+ "ark-r1cs-std",
+ "ark-relations",
+ "ark-snark",
  "curve25519-dalek",
  "ed25519-dalek",
  "rand",
  "zk-callbacks",
+ "zk-object",
 ]
 
 [[package]]
